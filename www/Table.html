@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NetDevices Project</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="Table.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+  </head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+    <h1>FiFa WorldCup 2018</h1>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr id="zero">
+                    <th>Rank</th>
+                    <th>Team</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-toggle="modal" data-id="1" data-target="#orderModal">
+                    <td>1</td>
+                    <td>France</td>
+                    <td>Qualify</td>
+                </tr>
+                <tr data-toggle="modal" data-id="2" data-target="#orderModal2">
+                    <td>2</td>
+                    <td>Russia</td>
+                    <td>Not Qualify</td>
+                </tr>
+                <tr data-toggle="modal" data-id="3" data-target="#orderModal3">
+                    <td>3</td>
+                    <td>Germany</td>
+                    <td>Qualify</td>
+                </tr>
+                <tr data-toggle="modal" data-id="3" data-target="#orderModal4">
+                    <td>4</td>
+                    <td>Spain</td>
+                    <td>Not Qualify</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+</div>
+
+<div id="orderModal2" class="modal fade animated zoomInDown" role="dialog" tabindex="-1" aria-labelledby="orderModalTitle" aria-hidden="true">  
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle"><span class="font-weight-bold">Russian Team</span></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body"><span class="font-weight-bold">Igor Kafaneev</span></div>
+      <div class="modal-body">Russia began their World Cup campaign with a 5-0 demolition of Saudi Arabia, who were just three spots above them in the rankingson 14 June in the opening match of the 2018 FIFA World Cup.On 19 June, Russia won their second game of the group stage, beating Egypt by a scoreline of 3-1taking their goal difference to +7 with only two matches played. The win over Egypt all but secured Russia's advancement into the knockout stage for the first time since 1986, when they played as the Soviet Union; and also for the first time in their history as an independent state.</div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+        </div>
+    </div>
+</div>
+<div id="orderModal" class="modal fade animated rotateIn" role="dialog" tabindex="-1" aria-labelledby="orderModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle"><span class="font-weight-bold">France Team</span></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body"><span class="font-weight-bold">Hugo Lloris</span></div>
+      <div class="modal-body">France and Denmark emphatically ended a streak of 36 matches without a goalless draw at Russia 2018. Their 90-minute standoff in Moscow took both sides through to the last-16 but it represented something of a nadir for this World Cup, with France somehow managing to double down on their slow, turgid opening to the tournament. The game also posed further selection questions for Didier Deschamps as he attempts to wrestle some form from his supremely talented yet cripplingly uninspired squad. Most notably: what should he do with Nabil Fékir, the only player who posed a consistent threat against Denmark.</div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+   <div id="orderModal3" class="modal fade animated flip" role="dialog" tabindex="-1" aria-labelledby="orderModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle"><span class="font-weight-bold">German Team</span></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body"><span class="font-weight-bold">Manuel Neuer</span></div>
+      <div class="modal-body">Despite winning all their qualifying matches and the Confederations Cup the previous year, Germany started their 2018 World Cup campaign on a sour note when they lost to Mexico for the first time in World Cup history. This was their first loss in a group stage match since the 2010 World Cup and their first loss in an opener since the 1982 World Cup. Germany defeated Sweden 2–1 in their second game via an injury time winner from Toni Kroos, but was subsequently eliminated by South Korea following a 2–0 loss, their first first round exit since 1938 and first ever in group stage. Germany had 28 shots with 6 on target, but the South Korean defense, led by keeper Cho Hyun-woo, did not concede once.</div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="orderModal4" class="modal fade animated rollIn" data-easein="slideUpBigIn" role="dialog" tabindex="-1" aria-labelledby="orderModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle"><span class="font-weight-bold">Spain Team</span></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body"><span class="font-weight-bold">Sergio Ramos</span></div>
+      <div class="modal-body">Spain won all their games in Group D. Italy were the opponents in the quarter-final match, which Spain won 4–2 on penalties. They then met Russia again in the semi-final, beating them 3–0. In the final, Spain defeated Germany 1–0, with Fernando Torres scoring the only goal of the game. This was Spain's first major title since the 1964 European Championship. Xavi was awarded the player of the tournament.</div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

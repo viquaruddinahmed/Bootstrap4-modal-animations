@@ -1,0 +1,39 @@
+table {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+td{
+	text-align: center;
+    height: 50px;
+    padding: 10px;
+    font-weight: 700;
+}
+th{
+	background: #4CAF50;
+	color: white;
+	text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+tr{
+    background: #e5e5e5;
+}
+
+h1{
+    text-align: center;
+}
+
+
+tr:hover {
+    background: #FFF;
+}
+
+.container{
+    margin: 100px;
+}
+
+.jumbotron{
+    background: #32CD32;
+}
